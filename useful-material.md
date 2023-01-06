@@ -44,6 +44,7 @@
 - The Java virtual machine specification Java SE by Bracha, GiladBuckley, AlexLindholm, TimYellin, Frank：虚拟机、ISA和编译器设计的抄作业对象。~~try..catch..finally一个finally块拷贝n次的设计就算了，真垃圾~~
 - 深入解析Java编译器：源码剖析与实例详解 (马智)： 还行，字有点大
 - antlr4权威指南：同上
+- [你好，类型](https://zhuanlan.zhihu.com/p/34669807)：粗略介绍命题逻辑、谓词逻辑、simply typed lambda calculus等内容，可作为上面文献的导读
 
 # 博客杂谈
 
