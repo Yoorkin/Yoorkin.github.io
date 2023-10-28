@@ -1,7 +1,10 @@
++++
+title = 'evoBasic 使用说明'
+date = 2023-10-24T02:01:30+08:00
+draft = false
++++
 
-# evoBasic 使用说明
-
-欢迎把玩evoBasic！这是一个以学习和实践编译原理和虚拟机设计与实践的项目。该项目目前实现和未实现的功能如下：
+欢迎把玩`evoBasic`！这是一个以学习和实践编译原理和虚拟机设计与实践的项目。该项目目前实现和未实现的功能如下：
 
 1. 编译器
 - [ ] 原始类型如：无符号整形(Byte)、有符号整型(Short,Integer,Long)、浮点(Single,Double)、布尔型(Boolean)、以及存储Unicode codepoint的Rune。 
@@ -55,7 +58,7 @@
 ## 示例：选择排序
 1. 创建文本文件test.eb，输入如下内容：
 
-```
+```vb
 Sub Swap(a As Integer, b As Integer)
 	Dim t As Integer
 	t = a

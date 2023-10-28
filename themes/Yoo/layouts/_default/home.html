@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <!-- <h1>{{ .Title }}</h1>
+  {{ .Content }} -->
+  <div class="post-item-list">
+    {{ range site.RegularPages }}
+      <div class="post-item">
+        {{ $t := .Date }}
+        {{ $format := "2006 Jan 2" }}
+        <div class="post-item-date"> {{ $t.Format $format }}</div>
+        <h2 class="post-item-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+        <p class="post-item-summary"> {{ .Summary }}..</p>
+      </div>
+    {{ end }}    
+  </div>    
+{{ end }}
